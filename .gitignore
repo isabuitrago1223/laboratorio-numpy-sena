@@ -1,0 +1,33 @@
+# Entorno virtual
+.venv/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos compilados
+*.so
+
+# Archivos de distribución
+build/
+dist/
+*.egg-info/
+
+# Archivos temporales
+*.log
+*.tmp
+*.temp
+
+# Configuración de VS Code
+.vscode/
+
+# Configuración de PyCharm
+.idea/
+
+# Variables de entorno
+.env
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store
