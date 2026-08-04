@@ -5,6 +5,7 @@ from ejercicios.ejercicio03 import main as ejercicio3
 from ejercicios.ejercicio04 import main as ejercicio4
 from ejercicios.ejercicio05 import main as ejercicio5
 from ejercicios.ejercicio06 import main as ejercicio6
+from ejercicios.ejercicio07 import main as ejercicio7
 
 
 # Función que muestra el menú principal
@@ -19,13 +20,14 @@ def mostrar_menu():
     print("4. Ejercicio 4 - Inventario inteligente")
     print("5. Ejercicio 5 - Sistema de producción")
     print("6. Ejercicio 6 - Procesamiento de imágenes")
+    print("7. Ejercicio 7 - Simulación de sensores IoT")
     print("0. Salir")
 
 
-# Función principal del programa
+# Función principal
 def main():
 
-    # Ciclo que mantiene el programa en ejecución
+    # Mantener el programa en ejecución
     while True:
 
         # Mostrar el menú
@@ -52,6 +54,9 @@ def main():
         elif opcion == "6":
             ejercicio6()
 
+        elif opcion == "7":
+            ejercicio7()
+
         elif opcion == "0":
             print("\nGracias por utilizar el programa.")
             break
@@ -60,6 +65,6 @@ def main():
             print("\n❌ Opción no válida. Intente nuevamente.")
 
 
-# Verificar que el archivo se ejecute directamente
+# Verificar que este archivo se ejecute directamente
 if __name__ == "__main__":
     main()
