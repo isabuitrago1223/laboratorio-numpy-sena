@@ -3,6 +3,7 @@ from ejercicios.ejercicio01 import main as ejercicio1
 from ejercicios.ejercicio02 import main as ejercicio2
 from ejercicios.ejercicio03 import main as ejercicio3
 from ejercicios.ejercicio04 import main as ejercicio4
+from ejercicios.ejercicio05 import main as ejercicio5
 
 
 # Función que muestra el menú principal
@@ -15,6 +16,7 @@ def mostrar_menu():
     print("2. Ejercicio 2 - Análisis de ventas mensuales")
     print("3. Ejercicio 3 - Análisis de calificaciones")
     print("4. Ejercicio 4 - Inventario inteligente")
+    print("5. Ejercicio 5 - Sistema de producción")
     print("0. Salir")
 
 
@@ -41,6 +43,9 @@ def main():
 
         elif opcion == "4":
             ejercicio4()
+
+        elif opcion == "5":
+            ejercicio5()
 
         elif opcion == "0":
             print("\nGracias por utilizar el programa.")
