@@ -8,6 +8,7 @@ from ejercicios.ejercicio06 import main as ejercicio6
 from ejercicios.ejercicio07 import main as ejercicio7
 from ejercicios.ejercicio08 import main as ejercicio8
 from ejercicios.ejercicio09 import main as ejercicio9
+from ejercicios.ejercicio10 import main as ejercicio10
 
 
 # Función que muestra el menú principal
@@ -25,6 +26,7 @@ def mostrar_menu():
     print("7. Ejercicio 7 - Simulación de sensores IoT")
     print("8. Ejercicio 8 - Encuesta nacional")
     print("9. Ejercicio 9 - Simulación financiera")
+    print("10. Ejercicio 10 - Dashboard estadístico")
     print("0. Salir")
 
 
@@ -66,6 +68,9 @@ def main():
 
         elif opcion == "9":
             ejercicio9()
+
+        elif opcion == "10":
+            ejercicio10()
 
         elif opcion == "0":
             print("\nGracias por utilizar el programa.")
