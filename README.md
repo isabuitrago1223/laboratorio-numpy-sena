@@ -1,4 +1,4 @@
-# 📊 Laboratorio de Análisis de Datos con NumPy
+#  Laboratorio de Análisis de Datos con NumPy
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
 ![NumPy](https://img.shields.io/badge/NumPy-2.5-green?logo=numpy)
